@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogsEngine.Core.Interfaces\BlogsEngine.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\BlogsEngine.DAL.Interfaces\BlogsEngine.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
